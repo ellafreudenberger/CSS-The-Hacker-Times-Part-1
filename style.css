@@ -58,3 +58,56 @@ img {
 
     width: 100%;
 }
+
+.grid-wrapper {
+display: grid;
+grid-template-columns: repeat(3, 1FR);
+gap: 10px; 
+grid-auto-rows: minmax(100px, auto);
+}
+
+.col-one {
+    grid-column 1;
+    grid-row: 1;
+
+}
+
+.col-two {
+
+    grid-column 2;
+    grid-row: 1;
+
+}
+
+.col-three {
+    
+    grid-column 3;
+    grid-row 1; 
+}
+
+
+.col-one ul {
+    display: block;
+}
+
+.col-two ul {
+    display: block;
+}
+
+.col-three ul {
+display: block ; 
+
+}
+
+.col-one li {
+    display: block;
+}
+
+.col-two li {
+    display: block;
+}
+
+.col-three li {
+display: block ; 
+
+}
