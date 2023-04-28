@@ -111,3 +111,16 @@ display: block ;
 display: block ; 
 
 }
+
+.more-articles {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
